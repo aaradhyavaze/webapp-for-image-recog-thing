@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1gQH4NrNSYy1PaMSLRwJmWHiXt0BUM8pF'
-export_file_name = 'vaze1.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1wtqufAgaXBkJH2iHKEqhnC9i1WgW30q3'
+export_file_name = 'vaze-asl.pkl'
 
-classes = ['O', 'R']
+classes = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'del', 'nothing', 'space']
 path = Path(__file__).parent
 
 app = Starlette()
